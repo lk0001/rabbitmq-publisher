@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'haml-rails'
 
+gem 'dotenv-rails'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', require: false
@@ -48,5 +50,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'fuubar', require: false
   gem 'pry'
+
+  gem 'timecop'
 end
 
