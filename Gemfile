@@ -31,6 +31,8 @@ gem 'haml-rails'
 
 gem 'dotenv-rails'
 
+gem 'bunny'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', require: false
