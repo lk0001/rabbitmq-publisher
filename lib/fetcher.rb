@@ -29,8 +29,8 @@ class Fetcher
   end
 
   def results_from_provider
-    @provider.fetch.with_indifferent_access.slice(:base, :rates, :timestamp).tap do |h|
-      h[:uuid] = h.delete(:timestamp)
+    @provider.fetch.with_indifferent_access.slice(:base, :rates).tap do |h|
+      h[:uuid] = SecureRandom.uuid
     end
   end
 

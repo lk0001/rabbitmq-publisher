@@ -33,7 +33,6 @@ gem 'dotenv-rails'
 
 gem 'bunny'
 gem 'sneakers'
-gem 'redis'
 
 group :development do
   gem 'better_errors'
